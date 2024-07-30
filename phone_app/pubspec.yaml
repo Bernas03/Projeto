@@ -1,0 +1,37 @@
+name: andoid_studio
+description: "Phone app"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bitalino: ^2.0.1
+  mysql1: ^0.19.2
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
+  intl: ^0.17.0
+  shared_preferences: ^2.2.3
+  permission_handler: ^11.3.1
+  bluetooth_low_energy: ^6.0.1
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/background_img.png
+    - assets/images/background_img2.png
+    - assets/images/background_img3.png
+    - assets/images/perfil_img.png
